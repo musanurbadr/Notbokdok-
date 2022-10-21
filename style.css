@@ -26,7 +26,7 @@ header {
 }
 aside {
   height: 80%;
-  width: 270px;
+  width: 20%;
   background-color: white;
   overflow-y: auto;
   
@@ -86,4 +86,31 @@ nav hr {
 
 aside{
   box-shadow: 2px 8px 4px #888888;
+}
+
+h1 {
+  font-size: 1.1rem;
+  counter-reset: #606060;
+  font-weight: 500;
+  padding: 1px 10px;
+  text-transform: uppercase;
+}
+
+a {
+  font-size: 1.1rem;
+  counter-reset: #606060;
+  font-weight: 500;
+  padding: 1px 10px;
+
+}
+
+.main div {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  padding: 35px 15px;
+  border-top: 1px solid #ddd;
+  overflow-y: auto;
+  box-shadow: 2px 8px 4px #888888;
+
 }
